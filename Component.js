@@ -8,6 +8,7 @@ export default class Component extends React.Component {
   }
 
   render() {
+    debugger;
     return (
       <div>
         <button onClick={this.clickHandler}>hello</button>
